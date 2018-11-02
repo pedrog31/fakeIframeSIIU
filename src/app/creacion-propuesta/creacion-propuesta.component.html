@@ -1,0 +1,9 @@
+<ng-container>
+  <p>
+    creacion-propuesta works!
+
+    {{mensajeSIIUString}}
+  </p>
+  <button *ngIf="!mensajeSIIU.codigoPropuesta" (click)="enviarPropuesta()">Enviar propuesta</button>
+  <button *ngIf="mensajeSIIU.codigoPropuesta" (click)="enviarProyecto()">Enviar proyecto</button>
+</ng-container>
