@@ -1,9 +1,10 @@
-<ng-container>
+<ng-container *ngIf="mensajeSIGP">
   <p>
     creacion-propuesta works!
 
     {{mensajeSIIUString}}
   </p>
-  <button *ngIf="!mensajeSIIU.codigoPropuesta" (click)="enviarPropuesta()">Enviar propuesta</button>
-  <button *ngIf="mensajeSIIU.codigoPropuesta" (click)="enviarProyecto()">Enviar proyecto</button>
+  <button *ngIf="!mensajeSIGP.proyecto.propuestaId" (click)="guardarPropuesta()">Guardar propuesta</button>
+  <button *ngIf="mensajeSIGP.proyecto.estado === 'elaborando'" (click)="enviarPropuesta()">Enviar propuesta</button>
+  <button *ngIf="!mensajeSIGP.proyecto.proyectoGradoId && mensajeSIGP.proyecto.estado === 'enviado'" (click)="enviarProyecto()">Enviar proyecto</button>
 </ng-container>

@@ -1,5 +1,5 @@
 import {Component, OnInit, Renderer2} from '@angular/core';
-import {MensajeSIIU} from '../modelo/mensajeSIIU';
+import {MensajeSIGP} from '../modelo/MensajeSIGP';
 
 @Component({
   selector: 'app-creacion-propuesta',
@@ -8,30 +8,37 @@ import {MensajeSIIU} from '../modelo/mensajeSIIU';
 })
 export class CreacionPropuestaComponent implements OnInit {
 
-  mensajeSIIU: MensajeSIIU;
+  mensajeSIGP: MensajeSIGP;
 
   constructor(public renderer: Renderer2) { }
 
   ngOnInit() {
     this.renderer.listen('window', 'message', (event) => {
-      if (event.data.mensajeSIIU !== undefined) {
-        this.mensajeSIIU = event.data.mensajeSIIU;
+      if (event.data.SIGP !== undefined) {
+        this.mensajeSIGP = event.data.SIGP;
+        return true;
       }
-      return true;
     });
   }
 
   enviarPropuesta() {
-    this.mensajeSIIU.codigoPropuesta = `${Math.floor(Math.random() * 999999999999) + 1}`;
-    window.parent.postMessage({mensajeSIIU: this.mensajeSIIU}, '*');
+    this.mensajeSIGP.proyecto.estado = 'enviado';
+    window.parent.postMessage({SIIU: this.mensajeSIGP}, '*');
   }
 
   enviarProyecto() {
-    this.mensajeSIIU.codigoProyectoGrado = `${Math.floor(Math.random() * 999999999999) + 1}`;
-    window.parent.postMessage({mensajeSIIU: this.mensajeSIIU}, '*');
+    this.mensajeSIGP.proyecto.proyectoGradoId = `${Math.floor(Math.random() * 999999999999) + 1}`;
+    this.mensajeSIGP.proyecto.estado = 'enviado';
+    window.parent.postMessage({SIIU: this.mensajeSIGP}, '*');
   }
 
   get mensajeSIIUString(): string {
-    return JSON.stringify(this.mensajeSIIU);
+    return JSON.stringify(this.mensajeSIGP);
+  }
+
+  guardarPropuesta() {
+    this.mensajeSIGP.proyecto.propuestaId = `${Math.floor(Math.random() * 999999999999) + 1}`;
+    this.mensajeSIGP.proyecto.estado = 'elaborando';
+    window.parent.postMessage({SIIU: this.mensajeSIGP}, '*');
   }
 }
