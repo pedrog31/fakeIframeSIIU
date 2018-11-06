@@ -73,4 +73,24 @@ En el codigo se puede ver de forma muy simple como se realiza el paso de mensjae
 
 1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/1.JPG?raw=true)
+
+1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+
+![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/2.JPG?raw=true)
+
+1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+
+![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/3.JPG?raw=true)
+
+1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+
+![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/4.JPG?raw=true)
+
+1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+
+![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/5.JPG?raw=true)
+
+1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+
+![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/6.JPG?raw=true)
