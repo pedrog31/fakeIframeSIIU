@@ -75,22 +75,22 @@ En el codigo se puede ver de forma muy simple como se realiza el paso de mensjae
 
 ![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/1.JPG?raw=true)
 
-1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+2. Estudiante registrado en SIGP, sin propuesta registrada accede al sistema SIIU para redactar su propuesta, se observa JSON de ejemplo. 
 
 ![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/2.JPG?raw=true)
 
-1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+3. Estudiante registrado en SIGP, con propuesta en estado "Elaborando" puede continuar con el desarrollo de esta, puede acceder por SIGP o SIIU. 
 
 ![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/3.JPG?raw=true)
 
-1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+4. Estudiante registrado en SIGP, finaliza readaccion de la propuesta. 
 
 ![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/4.JPG?raw=true)
 
-1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+5. Estudiante registrado en SIGP, con propuesta registrada, puede iniciar con la redaccion del proyecto de grado (la validacion de cumplimiento se realiza en SIIU). 
 
 ![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/5.JPG?raw=true)
 
-1. Estudiante registrado en SIGP, sin propuesta registrada inicia su inscripcion. 
+6. Estudiante registrado en SIGP, con propuesta registrada puede enviar proyecto de grado. 
 
 ![alt text](https://github.com/pedrog31/fakeIframeSIIU/blob/master/SIGP-SIIU/6.JPG?raw=true)
